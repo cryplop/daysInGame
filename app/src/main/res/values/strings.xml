@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">daysInGame</string>
+    <string name="party">За короля</string>
+    <string name="days">100</string>
+</resources>
