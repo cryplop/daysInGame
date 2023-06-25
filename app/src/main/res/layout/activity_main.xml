@@ -19,6 +19,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/days" />
+        <TextView
+            android:id="@+id/quarter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quarter" />
+
+
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
