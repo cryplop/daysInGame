@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">daysInGame</string>
+
     <string name="party">Капустные путешествия</string>
     <string name="days">100</string>
 
@@ -80,5 +81,8 @@
         <string name="performance"> </string>
 
 
+    <string name="party">За короля</string>
+    <string name="days">0</string>
+    <string name="quarter">0</string>
 
 </resources>
