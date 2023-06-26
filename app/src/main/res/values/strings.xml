@@ -79,6 +79,11 @@
         <string name="performanceComment">Исполнение</string>
         <string name="performanceAvailability"> </string>
         <string name="performance"> </string>
+
+    <string name="hygieneComment">Гигиена</string>
+    <string name="hygiene">5</string>
+
+
     <string name="quarter">1</string>
 
 </resources>
