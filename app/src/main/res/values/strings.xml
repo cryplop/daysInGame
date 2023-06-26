@@ -1,6 +1,83 @@
 <resources>
     <string name="app_name">daysInGame</string>
-    <string name="party">За короля</string>
-    <string name="days">0</string>
-    <string name="quarter">0</string>
+
+    <string name="party">Капустные путешествия</string>
+    <string name="days">100</string>
+
+    <string name="strongComment">Сила</string>
+    <string name="strong">5</string>
+
+        <string name="powerComment">Мощь</string>
+        <string name="powerAvailability">+</string>
+        <string name="power"> </string>
+
+        <string name="stayingComment">Выносливость</string>
+        <string name="stayingAvailability"> </string>
+        <string name="staying">1</string>
+
+        <string name="meleeComment">Ближний бой</string>
+        <string name="meleeAvailability"> </string>
+        <string name="melee">3</string>
+
+        <string name="craftComment">Ремесло</string>
+        <string name="craftAvailability"> </string>
+        <string name="craft"> </string>
+
+    <string name="dexterityComment">Ловкость</string>
+    <string name="dexterity">4</string>
+
+        <string name="secrecyComment">Скрытность</string>
+        <string name="secrecyAvailability">+</string>
+        <string name="secrecy"> </string>
+
+        <string name="legerdemainComment">Ловкость рук</string>
+        <string name="legerdemainAvailability"> </string>
+        <string name="legerdemain"> </string>
+
+        <string name="motionComment">Движение</string>
+        <string name="motionAvailability">+</string>
+        <string name="motion">2</string>
+
+        <string name="shootingComment">Стрельба</string>
+        <string name="shootingAvailability">+</string>
+        <string name="shooting">1</string>
+
+    <string name="savvyComment">Смекалка</string>
+    <string name="savvy">3</string>
+
+        <string name="perceptionComment">Восприятие</string>
+        <string name="perceptionAvailability">+</string>
+        <string name="perception"> </string>
+
+        <string name="knowledgeComment">Знание</string>
+        <string name="knowledgeAvailability"> </string>
+        <string name="knowledge"> </string>
+
+        <string name="survivalComment">Выживание</string>
+        <string name="survivalAvailability">+</string>
+        <string name="survival"> </string>
+
+        <string name="insightComment">Проницательность</string>
+        <string name="insightAvailability"> </string>
+        <string name="insight"> </string>
+
+    <string name="empathyComment">Эмпатия</string>
+    <string name="empathy">3</string>
+
+        <string name="animalHandlingComment">Обращение с животными</string>
+        <string name="animalHandlingAvailability"> </string>
+        <string name="animalHandling"> </string>
+
+        <string name="medicineComment">Лечение</string>
+        <string name="medicineAvailability"> </string>
+        <string name="medicine">1</string>
+
+        <string name="manipulationComment">Манипуляция</string>
+        <string name="manipulationAvailability"> </string>
+        <string name="manipulation"> </string>
+
+        <string name="performanceComment">Исполнение</string>
+        <string name="performanceAvailability"> </string>
+        <string name="performance"> </string>
+
 </resources>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/strongComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strongComment" />
+
+                <TextView
+                    android:id="@+id/strong"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strong" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/powerAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/powerAvailability" />
+                    <TextView
+                        android:id="@+id/powerComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/powerComment" />
+
+                    <TextView
+                        android:id="@+id/power"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/power" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/stayingAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stayingAvailability" />
+                    <TextView
+                        android:id="@+id/stayingComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stayingComment" />
+
+                    <TextView
+                        android:id="@+id/staying"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/staying" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/meleeAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/meleeAvailability" />
+                    <TextView
+                        android:id="@+id/meleeComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/meleeComment" />
+
+                    <TextView
+                        android:id="@+id/melee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/melee" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/craftAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/craftAvailability" />
+                    <TextView
+                        android:id="@+id/craftComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/craftComment" />
+
+                    <TextView
+                        android:id="@+id/craft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/craft" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dexterityComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dexterityComment" />
+
+                <TextView
+                    android:id="@+id/dexterity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dexterity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/secrecyAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/secrecyAvailability" />
+                    <TextView
+                        android:id="@+id/secrecyComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/secrecyComment" />
+
+                    <TextView
+                        android:id="@+id/secrecy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/secrecy" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/legerdemainAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/legerdemainAvailability" />
+                    <TextView
+                        android:id="@+id/legerdemainComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/legerdemainComment" />
+
+                    <TextView
+                        android:id="@+id/legerdemain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/legerdemain" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/motionAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/motionAvailability" />
+                    <TextView
+                        android:id="@+id/motionComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/motionComment" />
+
+                    <TextView
+                        android:id="@+id/motion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/motion" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/shootingAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shootingAvailability" />
+                    <TextView
+                        android:id="@+id/shootingComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shootingComment" />
+
+                    <TextView
+                        android:id="@+id/shooting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/shooting" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/savvyComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/savvyComment" />
+
+                <TextView
+                    android:id="@+id/savvy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/savvy" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/perceptionAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/perceptionAvailability" />
+                    <TextView
+                        android:id="@+id/perceptionComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/perceptionComment" />
+
+                    <TextView
+                        android:id="@+id/perception"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/perception" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/knowledgeAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/knowledgeAvailability" />
+                    <TextView
+                        android:id="@+id/knowledgeComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/knowledgeComment" />
+
+                    <TextView
+                        android:id="@+id/knowledge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/knowledge" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/survivalAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/survivalAvailability" />
+                    <TextView
+                        android:id="@+id/survivalComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/survivalComment" />
+
+                    <TextView
+                        android:id="@+id/survival"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/survival" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/insightAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/insightAvailability" />
+                    <TextView
+                        android:id="@+id/insightComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/insightComment" />
+
+                    <TextView
+                        android:id="@+id/insight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/insight" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/empathyComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empathyComment" />
+
+                <TextView
+                    android:id="@+id/empathy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empathy" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/animalHandlingAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/animalHandlingAvailability" />
+                    <TextView
+                        android:id="@+id/animalHandlingComment"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/animalHandlingComment" />
+
+                    <TextView
+                        android:id="@+id/animalHandling"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/animalHandling" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/medicineAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/medicineAvailability" />
+                    <TextView
+                        android:id="@+id/medicineComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/medicineComment" />
+
+                    <TextView
+                        android:id="@+id/medicine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/medicine" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/manipulationAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/manipulationAvailability" />
+                    <TextView
+                        android:id="@+id/manipulationComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/manipulationComment" />
+
+                    <TextView
+                        android:id="@+id/manipulation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/manipulation" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/performanceAvailability"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/performanceAvailability" />
+                    <TextView
+                        android:id="@+id/performanceComment"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/performanceComment" />
+
+                    <TextView
+                        android:id="@+id/performance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/performance" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
