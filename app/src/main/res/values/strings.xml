@@ -79,5 +79,6 @@
         <string name="performanceComment">Исполнение</string>
         <string name="performanceAvailability"> </string>
         <string name="performance"> </string>
+    <string name="quarter">1</string>
 
 </resources>
