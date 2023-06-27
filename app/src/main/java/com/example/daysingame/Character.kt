@@ -9,5 +9,8 @@ class Character : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.character_view)
+
+        var character = MyCharacter()
+
     }
 }
