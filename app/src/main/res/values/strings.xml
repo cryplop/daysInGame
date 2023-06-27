@@ -85,5 +85,8 @@
 
 
     <string name="quarter">1</string>
+    <string name="talantComment">Таланты</string>
+    <string name="nameTalant">Путь зверя</string>
+    <string name="levelTalant">2</string>
 
 </resources>
