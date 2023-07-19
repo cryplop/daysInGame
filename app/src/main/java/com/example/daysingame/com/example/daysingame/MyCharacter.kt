@@ -1,10 +1,8 @@
 package com.example.daysingame.com.example.daysingame
+import com.example.daysingame.com.example.daysingame.Talent
+class MyCharacter(
+    val nameCharacter:String,
+    val strong:Int,
+    val talents: MutableList<Talent> = mutableListOf()
+)
 
-class MyCharacter {
-    var nameCharacter:String = "Тора"
-    var strong:Int = 5
-    var talents = mapOf(
-            "wayBeast" to 2,
-            "masterManeuvering" to 1
-        )
-}
