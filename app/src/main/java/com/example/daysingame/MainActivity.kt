@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var days: TextView
     private lateinit var quarter: TextView
     fun quarterHasPassed(view: View) {
-
         val intent = Intent(this@MainActivity, Character::class.java)
         startActivity(intent)
 
