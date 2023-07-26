@@ -1,5 +1,4 @@
 package com.example.daysingame.com.example.daysingame
-import com.example.daysingame.com.example.daysingame.MyCharacter
 
 public final class Talent(
     val nameTalent: String,
@@ -7,7 +6,7 @@ public final class Talent(
 ){
     constructor(nameTalent: String,
                 levelTalent: Int,
-                owner: MyCharacter
+                owner: Adventurer
     ) : this(nameTalent, levelTalent) {
         owner.talents.add(this)
     }
