@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".com.example.daysingame.Character"
+            android:name=".com.example.daysingame.ViewAdventurer"
             android:parentActivityName=".MainActivity"
             android:exported="true">
             <intent-filter>
